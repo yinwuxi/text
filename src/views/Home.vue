@@ -17,11 +17,11 @@
 
 <script setup>
 const categories = [
-  {name: '手柄', image: '/public/手柄.jpg'},
-  {name: '把手', image: '/public/把手.jpg'},
-  {name: '手轮', image: '/public/手轮.jpg'},
-  {name: '拉手', image: '/public/拉手.jpg'},
-  {name: '机械配件', image: '/public/机械配件.jpg'}
+  {name: '手柄', image: 'public/手柄.jpg'},
+  {name: '把手', image: 'public/把手.jpg'},
+  {name: '手轮', image: 'public/手轮.jpg'},
+  {name: '拉手', image: 'public/拉手.jpg'},
+  {name: '机械配件', image: 'public/机械配件.jpg'}
 ];
 </script>
 
