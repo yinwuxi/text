@@ -9,8 +9,8 @@ export default defineConfig({
   ],
   resolve: {
     alias: {
-      '@': fileURLToPath(new URL('./', import.meta.url))
+      '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/JY/' : './'
+  base: process.env.NODE_ENV === 'production' ? '/JY/' : '/'
 })
