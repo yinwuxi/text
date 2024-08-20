@@ -7,10 +7,12 @@ export default defineConfig({
   plugins: [
     vue(),
   ],
+  base: '/text/', // 替换成你的 GitHub 仓库名
+
   resolve: {
     alias: {
       '@': fileURLToPath(new URL('./src', import.meta.url))
     }
   },
-  base: process.env.NODE_ENV === 'production' ? '/JY/' : '/'
+
 })
